@@ -9,8 +9,6 @@ public class Pagamento {
 	public static void formaPagamento(double valorAPagar) {		
 		Scanner entrada = new Scanner(System.in);
 		
-		Cliente.dizNomeCliente(null);
-		
 		System.out.println(" Qual seria a forma de pagamento? 1- Dinheiro");
 		System.out.println("                                  2- Débito");
 		System.out.println("                                  3- Crédito");			
